@@ -37,11 +37,11 @@ let pessoa = {
 let grass = {
     pokemon:'Bulbassaur',
     pokemon2: 'Ivysaur',
-    pokemon3 : 'Venossaur',
+    pokemon3 : 'Venusaur',
 };
 
 let fire = {
-     pokemon4: 'charmand er',
+     pokemon4: 'charmander',
      pokemon5: 'charmeleon',
      pokemon6: 'charizard',
 };
