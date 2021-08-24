@@ -1,2 +1,2 @@
 # churras
-de controle remoto
+segue aqui alguns materiais estudados 
