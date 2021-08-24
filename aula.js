@@ -160,6 +160,56 @@ let valorTecladoGamer = 100;
 valorTecladoGamer += valorTecladoGamer;
 console.log(valorTecladoGamer);
 
+//operadores de igualdade 
+//igualdade estrita
+console.log( 1 === 1 );
+console.log( '1' === 1);
+
+// Igualdade solta
+console.log(1 == 1 );
+console.log('1' == 1);
+
+//operador ternario 
+ let pontos = 100;
+ let tipo = pontos >= 100 ? 'Premium' : 'Comum';
+ console.log(tipo);
+
+ let pts = 100;
+ let type = pts >99 ? 'viadao' : 'humano';
+ console.log(type);
+//////////////////////////////////////////////////////////////
+//operadores logicos
+// operador logico e (&&)
+//retorna true se os dois operandos forem true
+
+/*let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = true;
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+console.log(podeAplicar);*/ 
+
+//operador logico ou (||)
+//Retornar true se um dos operandos forem true
+let maiorDeIdade = false;
+let possuiCarteiraDeTrabalho = false;
+let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
+console.log('Pode aplicar: ',podeAplicar);
+
+//operador not (!)
+let candidatoRecusado = !podeAplicar;
+console.log('Candidato Recusado: ',candidatoRecusado);
+//////////////////////////////////////////////////////////////
+let conhecimentophp = true;
+let conhecimentojs = false;
+let apto = conhecimentojs || conhecimentophp;
+let naoapto = !apto;
+console.log('Apto a trabalhar',apto);
+console.log('Não apto a trabalhar',naoapto);
+/////////////////////////////////////////////////////////////
+
+ 
+
+
+
 
 
 
