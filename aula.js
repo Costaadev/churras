@@ -222,8 +222,23 @@ let corPerfil = corPersonalizada || corPadrao;
 
 console.log(corPerfil);
 ////////////////////////////////////////////////
+//Trocando Valores de Variáveis
+let a = 'vermelho';
+let b = 'azul';
+let c = a;
+a = b;
+b = c;
+console.log(a);
+console.log(b);
 
-
+let x = 'green';
+let y = 'pink';
+let w = x;
+x = y;
+y = w;
+console.log(x);
+console.log(y);
+////////////////
 
  
 
