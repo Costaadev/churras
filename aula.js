@@ -206,6 +206,25 @@ console.log('Apto a trabalhar',apto);
 console.log('Não apto a trabalhar',naoapto);
 /////////////////////////////////////////////////////////////
 
+//Falsy
+//undefined
+//null
+//0
+//false
+//''
+//NaN - not a number
+
+//Truthy 
+
+let corPersonalizada = 'Laranja';
+let corPadrao = 'Azul';
+let corPerfil = corPersonalizada || corPadrao;
+
+console.log(corPerfil);
+////////////////////////////////////////////////
+
+
+
  
 
 
