@@ -309,8 +309,26 @@ while (n <= 5){
     }
     
 }*/
+let i = 0
+do {
+    console.log('digitando !', i);
+    i++;
+} while (i < 10)
+
+let p = 0 
+do {
+    console.log('katunamatata',p)
+    p++;
+}while (p <20)
+
+let k = 0 
+do{
+    console.log('blabla',k);
+    k ++;
+}while (k <=10);
 
 
+ 
 
 
 
