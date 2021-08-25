@@ -278,7 +278,37 @@ switch(permissao){
         console.log('usuario invalido');
 }
 
-
+//loop
+//1.for
+//2.whhile
+//3.do..while
+//4.for..in
+//5.for..of
+ //for(let i = 1; i <= 5;i++){
+//console.log('Eu sou o rei do beco sem saída !',i)
+ //}
+/* for(let p = ; p >=1; p--){
+     if(p % 2 !== 0){
+         console.log(p);
+     }
+ }
+ for(let n =1;n <=5;n++){
+    if(n % 2 !== 0){
+        console.log(n);
+    }
+}
+for(let m = 1;m <= 5;m++){
+    console.log(m);
+}*/
+ 
+// while loop
+/*let n = 5 ;
+while (n <= 5){
+    if(n % 2 !== 0){
+        console.log(n);
+    }
+    
+}*/
 
 
 
