@@ -333,17 +333,31 @@ do{
      idade: 22
  };
 
- for(let chave in pessoa) {
+/*for(let chave in pessoa) {
      console.log(chave,pessoa['nome']);
  }
-
+*/
 const cores = ['vermelho','azul','rosa'];
-for (let indice in cores) {
+/*for (let indice in cores) {
     console.log(indice,cores[indice])
-}
+}*/
 
 //for-of
+for(let cor of cores){
+    console.log(cor);
+}
 
+const pokemon = ['charmander','charmeleon','charizard']
+
+for(let pokemons of pokemon){
+    console.log(pokemons);
+}
+
+const meme = ['ih eu sei la poha','some daqui playboy fdp','num sei'];
+
+for(let memes of meme){
+    console.log(memes);
+}
  
 
 
