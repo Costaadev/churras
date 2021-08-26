@@ -27,12 +27,12 @@ let sobrenome = undefined //Undefined
 //(...)//
 
 //objetos
-let pessoa = {
+/*let pessoa = {
     nome: 'Costa',
     idade: 25,
     estaAprovado: true,
     sobrenome : 'souza',
- }
+ }*/
 
 let grass = {
     pokemon:'Bulbassaur',
@@ -328,10 +328,21 @@ do{
 }while (k <=10);
 
 
- 
+ const pessoa ={
+     nome: 'costa',
+     idade: 22
+ };
 
+ for(let chave in pessoa) {
+     console.log(chave,pessoa['nome']);
+ }
 
+const cores = ['vermelho','azul','rosa'];
+for (let indice in cores) {
+    console.log(indice,cores[indice])
+}
 
+//for-of
 
  
 
