@@ -33,7 +33,7 @@ let sobrenome = undefined //Undefined
     estaAprovado: true,
     sobrenome : 'souza',
  }*/
-
+/*
 let grass = {
     pokemon:'Bulbassaur',
     pokemon2: 'Ivysaur',
@@ -51,11 +51,11 @@ let water = {
     pokemon8: 'wartortle',
     pokemon9: 'blastoise',
 }
-
-console.log(water);
+*/
+/*console.log(water);
 console.log(fire);
 console.log(grass);
-
+*/
 //arrays
 
 let familia = [
@@ -358,9 +358,35 @@ const meme = ['ih eu sei la poha','some daqui playboy fdp','num sei'];
 for(let memes of meme){
     console.log(memes);
 }
- 
 
 
 
 
+/*function max(numero1,numero2){
+    if (numero1 > numero2)
+    return numero1;
+    else return numero2;
+}*/
+/*let valormaior = max(90,8);
+console.log(valormaior);
 
+function max(numero1,numero2){
+    if ( numero1 > numero2 )
+    return numero1;
+    else return numero2;
+}
+//or 
+//numero1 > numero2 ? numero1 : numero2;
+*/
+
+//EMITA UM MINI BANCO DE DADOS SOBE OS TIPOS DE POKEMONS E QUAIS SE SOBRESAEM ENTRE SI 
+
+const types = ['water','fire','grass'];
+console.log(types);
+let battle = typeefective('water','fire');
+
+function typeefective(type1,type2){
+    if(type1 > type2) 
+    return console.log("is very efective");
+    else return console.log("no efective");  
+}
