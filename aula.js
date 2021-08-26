@@ -381,12 +381,18 @@ function max(numero1,numero2){
 
 //EMITA UM MINI BANCO DE DADOS SOBE OS TIPOS DE POKEMONS E QUAIS SE SOBRESAEM ENTRE SI 
 
-const types = ['water','fire','grass'];
-console.log(types);
-let battle = typeefective('water','fire');
+//const types = ['water','fire','grass'];
+
+/*let battle = typeefective();
 
 function typeefective(type1,type2){
-    if(type1 > type2) 
-    return console.log("is very efective");
-    else return console.log("no efective");  
+    type1 > type2 ? console.log("efective") : console.log("no efective");  
+}
+*/
+let valorMaior = max(5,10);
+console.log(valorMaior);
+
+
+function max(numero1,numero2){
+    return numero1 > numero2 ? numero1 : numero2;
 }
