@@ -13,12 +13,13 @@ tarefas atuais a serem aplicadas no ambiente
 . sistema de login e senha para os usuarios da empresa - maior controle e facilidade para identificar casos de alteração de dados ou qualquer outra coisa no ambiente de trabalho
 .criar uma GPO
 .dentro desse sistema alguns usuários terão restrições de acesso 
-.utilização de uma dashboard para os usuarios para facilitar o acesso 
+.utilização de uma dashboard para os usuarios 
 
 
 
 /*Materiais de estudo para aplicação no projeto*/
-."https://4sysops.com/archives/deny-and-allow-workstation-logons-with-group-policy/" [...]
+."https://4sysops.com/archives/deny-and-allow-workstation-logons-with-group-policy/" 
+."https://comoaprenderwindows.com.br/active-directory/o-que-e-gpo/" [...]
 
 /*Ferramentas a serem utilizadas*/
 [...]
