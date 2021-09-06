@@ -1,5 +1,9 @@
 <!-- instalação do LAMP -->
 
+sudo apt-get install lamp-server^
+
+sudo apt-get install phpmyadmin
+
 <!-- LINK -->
 (https://www.edivaldobrito.com.br/instale-lamp-no-linux-e-tenha-um-servidor-web-em-seu-pc/)
 //////////////
