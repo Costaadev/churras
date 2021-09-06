@@ -1,0 +1,10 @@
+
+
+<!-- alterar senha phpmyadmin -->
+<!-- acessar -->
+sudo mysql -p -u root
+
+<!-- no lugar de '1234' colocar a senha que quiser -->
+ALTER USER 'root'@'localhost' IDENTIFIED with mysql_native_password BY '1234';
+
+end;
