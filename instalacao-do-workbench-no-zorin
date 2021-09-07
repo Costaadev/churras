@@ -1,0 +1,12 @@
+<!-- instalar mysql work-bench -->
+sudo mysql
+<!-- em 'usuario' o nome do usuario e em 'senha' a senha do usuario
+CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
+<!-- privilegios pro usuario -->
+<!-- em 'usuario' colocar o usuario
+GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'localhost' WITH GRANT OPTION;
+
+<!-- caso de erro pode ser o gnome ou alterar o usuario no workbench -->
+sudo apt install gnome-keyring -y
+///////////////////////////////////////
+
