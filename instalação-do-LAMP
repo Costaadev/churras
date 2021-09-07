@@ -1,9 +1,18 @@
 <!-- instalação do LAMP -->
 https://www.edivaldobrito.com.br/utorrent-no-linux-manualmente/
 
+
 sudo apt-get install lamp-server^
 
 sudo apt-get install phpmyadmin
+<!-- instalação do plank -->
+
+sudo apt-get install plank
+
+<!--inicializar com o sistema -->
+Nome: Plank
+Descrição: Dock de área de trabalho
+Comando: /usr/bin/plank
 
 <!-- LINK -->
 (https://www.edivaldobrito.com.br/instale-lamp-no-linux-e-tenha-um-servidor-web-em-seu-pc/)
