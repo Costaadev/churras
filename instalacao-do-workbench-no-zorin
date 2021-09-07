@@ -1,4 +1,5 @@
 <!-- instalar mysql work-bench -->
+(mysql-workbench-community_8.0.26-1ubuntu20.04_amd64.deb)
 sudo mysql
 <!-- em 'usuario' o nome do usuario e em 'senha' a senha do usuario
 CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'senha';
