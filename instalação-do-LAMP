@@ -8,6 +8,10 @@ http://www.mediafire.com/file/p6ti33oodwfml85/WoeUSB.zip/file
 sudo apt-get install lamp-server^
 
 sudo apt-get install phpmyadmin
+<!-- permissão para criacao de arquivos -->
+sudo chmod 755 -R /var/www/html/
+sudo chown bruno:bruno -R /var/www/html/
+
 <!-- instalação do plank -->
 
 sudo apt-get install plank
