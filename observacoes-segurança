@@ -1,0 +1,44 @@
+projeto porta do celeiro 
+
+feito algumas tarefas fisicas de seguranca como a configuracao de rede 
+uma rede oculta e com filtro mac
+
+temos algumas ferramentas para ampliar a quantidade de computadores no escritorio 
+/////////////////////////////////////////////
+[...]
+pesquisa atual sobre controle de grupo 
+algumas gpos 
+proibir acesso ao painel de controle
+idade maxima de senha 
+controle de acesso ao prompt de comando 
+nao permitir unidades de midia removiveis 
+rstringir instalcoes de software
+reinicializacao forçada do sistema
+desabilitar a conta de convidado 
+definir cumprimento minimo da senha 
+[...]
+///////////////////////////////////////////////
+entender como funciona a ligação das apis 
+a ideia é entender como funciona para saber como proteger 
+apenas o basico obvio mas é indispensavel 
+utilizar as tecnologias de segurança que se encaixam no procedimento 
+e se relmente é necessario 
+
+api é o que interliga as acoes em um aplicativo ou plataforma 
+oq faz as coisas funcionarem de fato o usuario final 
+nao consegue enxergar apenas os desenvolvedores 
+
+algumas apis ja sao feitas com a ideia de ser segura para o usuario final
+a forma de seguranca nao necessariamente tem que ter como alvo uma api em si 
+e sim o seu cenario basicamente 
+
+[...]
+////////////
+
+
+
+
+
+
+
+
