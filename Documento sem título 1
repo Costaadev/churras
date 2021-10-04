@@ -1,0 +1,23 @@
+criar conta
+criar webhoock
+listar documentos
+imprimir documento
+
+
+// Notificações
+https://dev.juno.com.br/api/v2#tag/Notificacoes
+
+
+// Pegar documentos
+https://dev.juno.com.br/api/v2#operation/getDocuments
+
+// Enviar documentos
+https://dev.juno.com.br/api/v2#operation/uploadDocument
+
+
+// Ver saldo
+https://dev.juno.com.br/api/v2#operation/getBalance
+
+// Transferir dinheiro
+https://dev.juno.com.br/api/v2#operation/requestTransfer
+ 
