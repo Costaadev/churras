@@ -1,0 +1,43 @@
+Uso de criptografias 
+CBC,OFB e CFB são semelhantes - OFB/CFB semelhantes e rapidas pois nao precisao de descriptografia.
+CTR caso queira algo mais rapido (CBC,OFB,CFB)
+<!--BCE NAO DEVE SER USADO apenas se for criptografado um bloco apenas -->
+
+///////////////////////////////////////////////////////
+
+
+DES um algoritimo desatualizado nao aconselhavel o uso / outros algoritmos de criptografia sucederam o DES.
+
+3DES triple encryption Standard chave simétrica se passa pelo algoritmo DES 3 vezes / verificar se o 3DES ja foi substituido e se ainda é usado 
+
+AES advanced Encryption Standard desenvolvido para atualizar o algoritimo DES original se encontra em apps de mensagen como whatsapp e programa de compactação de arquivos winzip
+
+RSA obtem um tamanho grande de chave e é bem utilizado /RIVEST , SHAMIR E ADLEMAN sobrenome dos matematicos que descreveram esse algoritmo/ assimetrico por usar um par de chaves.
+
+
+<!--TWOFISH-->
+usado em hardware e software um dos mais rapidos de seu tipo/ disponibilizado de gratis / encontrado em PhotoEncrypt , GPG e o popular software de codigo aberto Truecrypt.
+
+<!--RC4-->
+usado em WEP e WPA 
+
+Criptografia de dados em trânsito
+Os dados são considerados em trânsito quando se movem entre dispositivos, como em redes privadas ou na Internet. Durante a transferência, os dados são expostos a um maior risco devido à necessidade de serem criptografados antes da transferência e às vulnerabilidades do próprio método de transferência. A criptografia de dados durante a transferência, referida como criptografia de ponta a ponta, garante que mesmo se os dados forem interceptados, sua privacidade é protegida.
+
+
+proteção de dados em repouso TDE / transparent DATA encryption 
+utilizada em banco de dados por empresas importantes no mercado 
+banco de dados no disco rigido /TDE nao protege dados em transito 
+////////////////////////////
+/////////////////////////////
+PONTA A PONTA
+Um termo que você ouve com frequência em relação à criptografia de dados é a criptografia de ponta a ponta. Ela se refere a sistemas em que somente dois usuários se comunicam, ambos possuem chaves e podem descriptografar a conversa. Até mesmo o provedor de serviços não pode acessar os dados criptografados de ponta a ponta.
+
+É possível redefinir os dados criptografados de ponta a ponta. Em um iPhone, por exemplo, isso pode ser necessário se você esquecer sua senha para voltar a obter acesso ao seu dispositivo. Se você fizer isso, não conseguirá usar nenhum dos arquivos de backup criptografados anteriormente. Mas você pode usar o iTunes para fazer backup do seu dispositivo iOS novamente e definir uma nova senha para os dados dos quais você fez backup.
+
+
+
+
+
+
+
