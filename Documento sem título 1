@@ -1,23 +1,32 @@
-criar conta
-criar webhoock
-listar documentos
-imprimir documento
+modelo em rede 
+modelo hierarquico
+modelo relacional
+orientado a objeto 
 
+cada objeto tem caracteristicas parecidas 
+valores diferentes
 
-// Notificações
-https://dev.juno.com.br/api/v2#tag/Notificacoes
+bd 
+tabela
+registro
+campo
 
+tipos primitivos
 
-// Pegar documentos
-https://dev.juno.com.br/api/v2#operation/getDocuments
-
-// Enviar documentos
-https://dev.juno.com.br/api/v2#operation/uploadDocument
-
-
-// Ver saldo
-https://dev.juno.com.br/api/v2#operation/getBalance
-
-// Transferir dinheiro
-https://dev.juno.com.br/api/v2#operation/requestTransfer
+<!--use (nome bd);  -->
  
+ create table pessoas (
+nome varchar (30),
+idade tinyint,
+sexo char (1),
+peso float,
+altura float,
+nacionalidade varchar (20)
+);
+
+describe pessoas;
+
+create database cadastro 
+default character set utf8
+default collate utf8_general_ci; 
+
