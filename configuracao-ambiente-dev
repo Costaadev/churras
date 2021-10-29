@@ -1,0 +1,31 @@
+Instalação do ambiente dev 
+
+instalacao das ferramentas 
+android studio in snap
+node e npm -- curl -sL https://deb.nodesource.com/setup\_13.x | sudo -E bash - [...] sudo apt install nodejs 
+jdk -- sudo apt-get install openjdk-8-jdk openjdk-8-jre
+
+... Na pasta onde há os arquivos do app abrir o terminal e executar os seguintes comandos 
+ionic cordova run android
+ionic cordova platform add android
+sudo npm install --save-dev @angular-devkit/build-angular
+ionic cordova platform add android
+ionic cordova run android -l
+
+
+
+[...]
+Verificar pendencias de instalação --- cordova requirements android --verbose
+
+[...]
+cd
+cd Android/Sdk/build-tools/31.0.0
+sudo mv d8 dx && cd lib && mv d8.jar dx.jar
+
+
+[...]
+sudo nano /etc/profile
+export ANDROID_SDK_ROOT="/home/NOME-DO-USURARIO/Android/Sdk"
+export CAPACITOR_ANDROID_STUDIO_PATH="/snap/android-studio/current/android-studio/bin/studio.sh"
+[...]caminho projeto /var/www/html/app-passageiro-85/platforms/android
+
